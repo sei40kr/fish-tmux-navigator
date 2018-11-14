@@ -1,0 +1,17 @@
+#+TITLE: fish-tmux-navigator
+
+Move between panes with C-h/C-j/C-k/C-l.
+
+* Install
+  With Fisher
+  
+  #+BEGIN_SRC fish
+    fisher add sei40kr/fish-tmux-navigator
+  #+END_SRC
+ 
+  You can't clear the terminal screen by pressing ~C-l~, so it is recommended to
+  create an alias for =clear=.
+  
+  #+BEGIN_SRC fish
+    alias c clear
+  #+END_SRC
